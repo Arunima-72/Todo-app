@@ -1,0 +1,62 @@
+[
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "Go for a walk",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "Read a book",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 3,
+      "title": "Buy gorceries",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 4,
+      "title": "Call friend",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 5,
+      "title": "Complete Assignment",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 6,
+      "title": " Attend the class",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 7,
+      "title": "Watch a movie",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 8,
+      "title": "Clean the room",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 9,
+      "title": "Attend the coding challenge",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 10,
+      "title": "Practice the dance",
+      "completed": true
+    }
+]

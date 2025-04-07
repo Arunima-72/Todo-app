@@ -1,0 +1,12 @@
+.todo{
+    background-color: aliceblue;
+}
+#todo{
+    color:rgb(80, 128, 231);
+    font-family: 'Times New Roman', Times, serif;
+}
+#logo{
+    width: auto;
+    height: 5em;
+    align-content: initial;
+}

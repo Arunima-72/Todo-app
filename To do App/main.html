@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main page</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="CSS/css/bootstrap.min.css"/>
+    <script src="CSS/js/bootstrap.min.js"></script>
+    <link rel="icon" type="images/icon" href="images/checklist.png"/>
+</head>
+<body>
+    <header>
+      
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+              <img src="images/timeline.png" alt="no logo" id="logo"/>
+                
+              <h3 style="color:whitesmoke; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;font-size: xx-large;text-align: center;"></h3><br>
+             
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#" color="black">ToDo</a >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Logout</a>
+                    </li>
+                   
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </nav><br>
+           <div class="todo-container">
+
+          
+          
+            <h3 id="todo">My ToDO List</h3>
+            <form onsubmit="addTask(event)">
+              <input type="text" id="taskInput" placeholder="Add your task" required>
+              <button type="submit" class="btn btn-primary ">Add Task</button>
+          
+
+            </form>
+            <br>
+            <ul id="todo-list" class="list-group"></ul>
+
+          </div>    
+                
+        </header>
+        
+   
+    
+    <script src="script.js"></script>
+</body>
+</html>
